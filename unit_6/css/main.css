@@ -1,0 +1,62 @@
+h1 {
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2;
+	outline: 3px solid #222;
+}
+#slogan {
+	outline: 3px solid #222;
+	width: 50%;
+	float:left;
+}
+ul {
+	list-style: none;
+	float: left;
+}
+li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 30px;
+	margin:1.8;
+}
+#hero {
+	clear:both;
+	width: 960px;
+	border-radius: 0;
+	border: none;
+	margin: 0;
+}
+nav {
+	display: block;
+}
+nav a {
+	text-decoration: none;
+	color: #000000;
+	padding: 60px;
+	margin: 1.5em;
+	display: inline-block;
+}
+body {
+	font-size: 2em;
+}
+#smoothies {
+	float: left;
+	outline: 3px solid #222;
+	width: 40%;
+	margin: 0 auto;
+
+}
+footer {
+	text-align: left;
+}
+
+
+.clearfix:after {
+ display: block;
+ content: " ";
+ clear: both;
+ visibility: hidden;
+ height: 0;
+ font-size: 0;
+}
