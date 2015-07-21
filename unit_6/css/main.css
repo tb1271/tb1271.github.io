@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
 }
 
 h1 {
@@ -10,36 +9,50 @@ h1 {
 	text-align: center;
 	line-height: 2;
 	outline: 3px solid #222;
+	background-color: #B1C1FC;
+}
+body {
+	
 }
 .slogan {
 	outline: 3px solid #222;
 	width: 50%;
-	float:left;
-	height: 6em;
+	float: left;
 	text-align: center;
 	font-size: 1.8em;
 	font-style: italic;
+	padding: 1em 0;
+	margin: 0 2 em;
+	background-color: #D4FC7C;
 }
+
 ul {
 	list-style: none;
 	float: left;
-	height: 6em;
+	width: 50%;
+	padding: 1em 0;
+	text-align: center;
+	font-size: 1.5em;
 }
 li {
 	text-decoration: none;
 	display: inline-block;
 	padding: 40px;
-	margin: 1.8em;
+	margin: 0 2em;
+	outline: 3px solid #222;
+	background-color: #D4FC7C;
 }
-#hero {
+
+.hero {
 	clear:both;
-	width: 960px;
-	border-radius: 0;
-	border: none;
-	margin: 0;
+	text-align: center;
+	width: 100%;
+	
 }
 nav {
 	display: block;
+	font-size: 2em;
+	text-align: center;
 }
 nav a {
 	text-decoration: none;
@@ -49,29 +62,48 @@ nav a {
 	display: inline-block;
 }
 body {
-	font-size: 2em;
+	font-size: 16px;
 }
-.boxes {
+div {
+  width: 800px;
+  clear: both;
+  margin: 0 auto;
+}
+h2 {
+	font-size: 3em;
+	text-align: center;
+}
+.smoothie img {
 	float: left;
-	outline: 3px solid #222;
-	width: 45%;
-	margin: 0 auto;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+}
+.smoothie ul {
+	float: right;
+	width: 55%;
+}
+.smoothie li {
+	padding: 40px;
+}
+.froyo ul {
+	float:left;
+	width: 20%;
+	padding: 1em;
+}
+.froyo li {
+	padding: 50px;
 }
 
-.image_left {
-	float: left;
-}
-.image_right {
+.froyo img {
 	float: right;
+	width: 400px;
+	margin: 0;
+	padding: 0;
 }
+
 footer {
-	text-align: left;
-}
-.clearfix:after {
- display: block;
- content: " ";
- clear: both;
- visibility: hidden;
- height: 0;
- font-size: 0;
+	clear: both;
+	text-align: right;
+	font-size: 3em;
 }
