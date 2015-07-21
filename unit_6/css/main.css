@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 1px solid red;
+}
+
 h1 {
 	font-size: 5em;
 	font-weight: bold;
@@ -5,20 +11,25 @@ h1 {
 	line-height: 2;
 	outline: 3px solid #222;
 }
-#slogan {
+.slogan {
 	outline: 3px solid #222;
 	width: 50%;
 	float:left;
+	height: 6em;
+	text-align: center;
+	font-size: 1.8em;
+	font-style: italic;
 }
 ul {
 	list-style: none;
 	float: left;
+	height: 6em;
 }
 li {
 	text-decoration: none;
 	display: inline-block;
-	padding: 30px;
-	margin:1.8;
+	padding: 40px;
+	margin: 1.8em;
 }
 #hero {
 	clear:both;
@@ -40,18 +51,22 @@ nav a {
 body {
 	font-size: 2em;
 }
-#smoothies {
+.boxes {
 	float: left;
 	outline: 3px solid #222;
-	width: 40%;
+	width: 45%;
 	margin: 0 auto;
+}
 
+.image_left {
+	float: left;
+}
+.image_right {
+	float: right;
 }
 footer {
 	text-align: left;
 }
-
-
 .clearfix:after {
  display: block;
  content: " ";
