@@ -4,12 +4,15 @@
 }
 
 h1 {
-	font-size: 5em;
+	font-family: 'Kranky', cursive;
+	font-size: 7em;
 	font-weight: bold;
 	text-align: center;
 	line-height: 2;
 	outline: 3px solid #222;
 	background-color: #B1C1FC;
+	padding-bottom: .5em;
+	margin-bottom: .5; 
 }
 body {
 	
@@ -21,15 +24,15 @@ body {
 	text-align: center;
 	font-size: 1.8em;
 	font-style: italic;
-	padding: 1em 0;
-	margin: 0 2 em;
+	padding: 1.5em 0;
+	margin: 0 1.8 em;
 	background-color: #D4FC7C;
 }
 
 ul {
 	list-style: none;
 	float: left;
-	width: 50%;
+	width: 48%;
 	padding: 1em 0;
 	text-align: center;
 	font-size: 1.5em;
@@ -52,6 +55,7 @@ li {
 nav {
 	display: block;
 	font-size: 2em;
+	font-family: 'Kranky', cursive;
 	text-align: center;
 }
 nav a {
@@ -71,7 +75,9 @@ div {
 }
 h2 {
 	font-size: 3em;
+	font-family: 'Kranky', cursive;
 	text-align: center;
+	padding-bottom: .5em;
 }
 .smoothie img {
 	float: left;
@@ -101,7 +107,24 @@ h2 {
 	margin: 0;
 	padding: 0;
 }
-
+#wrapper {
+	width: 100%;
+	padding: 0;
+}
+#content {
+	float: left;
+	font-size: 20px;
+	width: 58%;
+	margin: 0 5px 5px 5px;
+	padding: 0 0 10px 20px;	
+}
+aside {
+	float: right;
+	font-size: 18px;
+	width: 38%;
+	margin: 0 5px 5px 5px;
+	padding: 0 0 10px 20px;
+}
 footer {
 	clear: both;
 	text-align: right;
