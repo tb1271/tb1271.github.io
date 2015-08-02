@@ -1,5 +1,5 @@
 img {
-	background-size: cover;
+	background-size: 1040px;
 }
 h1	{
 	font-size: 5em;
@@ -7,15 +7,17 @@ h1	{
 	font-style: italic;
 }
 #hero {
-	display: block;
 	width: 100%;
-	margin: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
 }
 body {
 	background-color: #FFF188;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
-	font-size: 2em;
+	font-size: 16px;
 }
 
 h1, p {

@@ -1,0 +1,111 @@
+div {
+	text-align: center;
+}
+div img {
+	margin: 0 60px 0 0;
+	padding: 0 0 0 0;
+	border: 0;
+	width: 100%;
+}
+#hero {
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h1 {
+	font-size: 16em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 2px solid #000;
+	background-color: yellow;
+}
+h2 {
+	font-size: 2em;
+	font-family: 'Playfair Display', serif;
+}
+h3 {
+	font-size: 6em;
+}
+
+body {
+	font-size: 16px;
+}
+nav {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	padding: 20px 0 20px 0;
+}
+nav a {
+	padding: 0 200px 0 200px;
+	font-size: 3em;
+	text-decoration: none;
+	background-color: yellow;
+	color: black;
+}
+.wrap {
+	width: 100%;
+	float: left;
+}
+.wrap img {
+	float: left;
+	width: 300px;
+}
+.column {
+	float: left;
+	font-size: 5em;
+	padding: 0 50px 0 50px;
+	width: 30%;
+}
+
+.column a {
+	text-decoration: none;
+	font-size: 1em;
+	color: black;
+}
+.column p {
+	font-size: .5em;
+	text-align: justify;
+}
+#books {
+	text-align: justify;
+}
+#recipes {
+	text-align: justify;
+}
+#funstuff {
+	text-align: justify;
+}
+#funstuff a {
+	background-color: red;
+}
+footer {
+	margin: 200px 0 0 0;
+	font-size: 3em;
+}
+ul {
+	float: left;
+	width: 20%;
+	padding: 0 50px 0 50px;
+	margin: 20px 50px;
+	outline: solid black;
+}
+li {
+	font-style: italic;
+	margin: auto;
+}
+section {
+	font-size: 3em;
+}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
