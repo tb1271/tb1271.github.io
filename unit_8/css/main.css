@@ -11,7 +11,7 @@ span
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 5em;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	/*text-align: center;
@@ -20,7 +20,7 @@ h1 {
 	margin-bottom: 0;
 	border: 2px solid #000;*/
 	position: absolute;
-	top: 1.5em;
+	top: .75em;
 	left: 0;
 	padding: 0 3em;
 }
@@ -43,8 +43,47 @@ nav a {
 
 }
 a:hover {
-	background-color:red;
+	background-color:rgba(0,0,0, .7);
 }
+blockquote {
+	font-size: 2.5em;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-align: center;
+	padding: 1em 0;
+	width: 75%;
+	color: #383838;
+	quotes: "\201C""\201D"
+}
+blockquote:before {
+	color: #ccc;
+ 	content: open-quote;
+ 	font-size: 4em;
+ 	line-height: 0.1em;
+ 	margin-right: 0.45em;
+ 	vertical-align: -0.4em;
+}
+blockquote:after {
+	color: #ccc;
+ 	content: close-quote;
+ 	font-size: 4em;
+ 	line-height: 0.1em;
+ 	vertical-align: -0.2em;
+ 	margin-right: -5em;
+ 	
+}
+
+blockquote cite {
+color: #999999;
+font-size: 1em;
+display: inline;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
 h2 {
 	font-size: 1.5em;
 	font-family: 'Playfair Display', serif;
@@ -61,9 +100,10 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
+	background-color: rgba(255,255,0, .1);
 }
 section {
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 ul {
@@ -89,7 +129,7 @@ li {
 .wrap {
 	width: 100%;
 	float: left;
-	padding: 6.2em 0;
+	padding: auto;
 }
 
 .wrap img {
@@ -151,17 +191,28 @@ li {
 }
 
 
+
+
 @media only screen and (max-width: 740px) {
-	ul, .column, a .column p {
+	ul, .column, .column a, .column p, .wrap, .wrap img {
 		float: none;
 	}
-	body {
-		font-size: .8em;
+	
+	div {
+		width: auto;
 	}
+	h1 {
+		font-size: 1em;
+	}
+}
+
 
 }
 @media only screen and (max-width: 400px) {
-body {
-		font-size: .5em;
+	ul, .column, .column a, .column p, .wrap, .wrap img {
+		float: none;
+	}
+	div {
+		width: auto;
 	}
 }
