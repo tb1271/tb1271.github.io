@@ -1,28 +1,14 @@
-div {
-}
 div img {
-	/*margin: 0 60px 0 0;
-	padding: 0 0 0 0;
-	border: 0;*/
 	width: 100%;
 }
-span 
-	{color: rgba(255,255,255, .8)
-}
-
 h1 {
 	font-size: 5em;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	/*text-align: center;
-	padding-bottom: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	border: 2px solid #000;*/
+	color: rgba(255,255,255, .8);
 	position: absolute;
-	top: .75em;
-	left: 0;
-	padding: 0 3em;
+	top: 10%;
+	left: 10%;
 }
 nav {
 	text-align: center;
@@ -42,7 +28,7 @@ nav a {
 	color: rgba(255,255,0, .8);
 
 }
-a:hover {
+nav a:hover {
 	background-color:rgba(0,0,0, .7);
 }
 blockquote {
@@ -51,17 +37,18 @@ blockquote {
 	font-style: italic;
 	text-align: center;
 	padding: 1em 0;
-	width: 75%;
+	width: 80%;
 	color: #383838;
-	quotes: "\201C""\201D"
+	quotes: "\201C""\201D";
+	margin: 0 auto;
 }
 blockquote:before {
 	color: #ccc;
  	content: open-quote;
  	font-size: 4em;
  	line-height: 0.1em;
- 	margin-right: 0.45em;
- 	vertical-align: -0.4em;
+ 	margin-right: 0.25em;
+ 	vertical-align: -0.45em;
 }
 blockquote:after {
 	color: #ccc;
@@ -69,21 +56,17 @@ blockquote:after {
  	font-size: 4em;
  	line-height: 0.1em;
  	vertical-align: -0.2em;
- 	margin-right: -5em;
- 	
+ 	margin-right: -3.5em; 	
 }
-
 blockquote cite {
 color: #999999;
 font-size: 1em;
 display: inline;
 margin-top: 5px;
 }
- 
 blockquote cite:before {
 content: "\2014 \2009";
 }
-
 h2 {
 	font-size: 1.5em;
 	font-family: 'Playfair Display', serif;
@@ -91,11 +74,13 @@ h2 {
 	text-align: center;
 	display: block;
 }
+span {
+	font-weight: bold;
+}
 h3 {
 	font-size: 2em;
 	text-align: center;
 }
-
 body {
 	font-size: 16px;
 	margin: 0;
@@ -105,7 +90,6 @@ body {
 section {
 	font-size: 1.3em;
 }
-
 ul {
 	float: left;
 	width: 26%;
@@ -131,7 +115,6 @@ li {
 	float: left;
 	padding: auto;
 }
-
 .wrap img {
 	float: left;
 	width: 100%;
@@ -139,7 +122,6 @@ li {
 	padding-bottom: 1em;
 	display: block;
 }
-
 .column {
 	float: left;
 	font-size: 1em;
@@ -147,39 +129,38 @@ li {
 	width: 28%;
 	margin: 0;
 }
-
 .column a {
 	text-decoration: none;
 	font-size: 1em;
 	color: black;
-	float: left;
 	display: block;
+	text-align: left;
 }
 .column p {
 	font-size: .8em;
 	text-align: justify;
-	float: left;
-	width: 80%;
-	display: block;
 	padding: 1em 0;
 }
+.recipes {
+	width: 100%;
+	float: left;
+	padding: auto;
+}
+.recipes a {
+	font-size: 1em;
+	display: block;
+	margin: 0;
+	padding: .2em 0;
+	color: red;
 
-/*#books {
-	text-align: center;
 }
-#recipes {
-	text-align: center;
+.recipes img {
+	padding-bottom: 1em;
 }
-#funstuff {
-	text-align: center;*/
-}
+
 #funstuff a {
 	color: red;
 }
-/*footer {
-	margin: 10em 0 0 0;
-	font-size: 3em;
-}*/
 
 .clearfix:after{
     visibility: hidden;
@@ -191,28 +172,58 @@ li {
 }
 
 
+@media only screen and (max-width: 950px) {
+blockquote {
+	font-size: 2em;
+}
+h1 {
+	font-size: 4em;
+}
+}
 
-
-@media only screen and (max-width: 740px) {
-	ul, .column, .column a, .column p, .wrap, .wrap img {
-		float: none;
-	}
-	
-	div {
-		width: auto;
+@media only screen and (max-width: 800px) {
+	nav a {
+		padding: 0 1em;
 	}
 	h1 {
+		font-size: 3em;
+	}
+	.column {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	blockquote {
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.column {
+		float: none;
+		width:auto;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	}
+@media only screen and (max-width: 640px) {
+	blockquote {
+	font-size: 1.5em;
+	width: 80%;
+}
+}
+@media only screen and (max-width: 535px) {
+	blockquote {
 		font-size: 1em;
 	}
-}
 
-
-}
-@media only screen and (max-width: 400px) {
-	ul, .column, .column a, .column p, .wrap, .wrap img {
-		float: none;
 	}
-	div {
-		width: auto;
+@media only screen and (max-width: 475px) {
+	nav a {
+		padding: 0 .4em;
+}
+	h1 {
+		font-size: 2em;
 	}
 }
