@@ -26,7 +26,6 @@ nav a {
 	text-decoration: none;
 	font-weight: bold;
 	color: rgba(255,255,0, .8);
-
 }
 nav a:hover {
 	background-color:rgba(0,0,0, .7);
@@ -59,13 +58,13 @@ blockquote:after {
  	margin-right: -3.5em; 	
 }
 blockquote cite {
-color: #999999;
-font-size: 1em;
-display: inline;
-margin-top: 5px;
+	color: #999999;
+	font-size: 1em;
+	display: inline;
+	margin-top: 5px;
 }
 blockquote cite:before {
-content: "\2014 \2009";
+	content: "\2014 \2009";
 }
 h2 {
 	font-size: 1.5em;
@@ -80,6 +79,7 @@ span {
 h3 {
 	font-size: 2em;
 	text-align: center;
+	padding: .8em 0;
 }
 body {
 	font-size: 16px;
@@ -93,13 +93,12 @@ section {
 ul {
 	float: left;
 	width: 26%;
-	padding: 0 .8em 0 .8em;
+	padding: 0 .5em 0 .5em;
 	margin: .5em .5em;
 	outline: dotted black;
 	border: solid;
 	border-color: rgba(255,255,0, .8);
 }
-
 li {
 	font-style: italic;
 	margin: auto;
@@ -151,17 +150,13 @@ li {
 	display: block;
 	margin: 0;
 	padding: .2em 0;
-	color: red;
-
 }
 .recipes img {
 	padding-bottom: 1em;
 }
-
 #funstuff a {
 	color: red;
 }
-
 .clearfix:after{
     visibility: hidden;
     display: block;
@@ -170,7 +165,6 @@ li {
     height: 0;
     font-size: 0;
 }
-
 
 @media only screen and (max-width: 950px) {
 blockquote {
