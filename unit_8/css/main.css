@@ -16,7 +16,7 @@ nav {
 	padding: .5em 0 .5em 0;
 	width: 100%;
 	position: absolute;
-	bottom: 0;
+	bottom: 3%;
 	left: 0;
 	background-color: rgba(0,0,0, .4);
 }
@@ -25,15 +25,14 @@ nav a {
 	font-size: 1em;
 	text-decoration: none;
 	font-weight: bold;
-	color: rgba(255,255,0, .8);
+	color: rgba(255,255,255, .9);
 }
 nav a:hover {
 	background-color:rgba(0,0,0, .7);
 }
 blockquote {
 	font-size: 2.5em;
-	font-family: Georgia, serif;
-	font-style: italic;
+	font-family: 'Playfair Display', serif;
 	text-align: center;
 	padding: 1em 0;
 	width: 80%;
@@ -87,22 +86,17 @@ body {
 	padding: 0;
 	background-color: rgba(255,255,0, .2);
 }
-section {
-	font-size: 1.3em;
-}
+
 ul {
 	float: left;
-	width: 26%;
-	padding: 0 .5em 0 .5em;
-	margin: .5em .5em;
-	outline: dotted black;
-	border: solid;
-	border-color: rgba(255,255,0, .8);
+	padding-left: 1em;
 }
 li {
 	font-style: italic;
+	text-align: center;
+	font-size: 1.2em;
 	margin: auto;
-	padding: .2em 0;
+	padding: .65em;
 }
 
 .hero {
@@ -110,9 +104,9 @@ li {
 	position: relative;
 }
 .wrap {
-	width: 100%;
-	float: left;
+	width: 90%;
 	padding: auto;
+	margin: auto;
 }
 .wrap img {
 	float: left;
@@ -124,19 +118,18 @@ li {
 .column {
 	float: left;
 	font-size: 1em;
-	padding: 0 1em 0 1em;
-	width: 28%;
+	padding: 0 1%;
+	width: 31.33%;
 	margin: 0;
 }
 .column a {
 	text-decoration: none;
 	font-size: 1em;
 	color: black;
-	display: block;
 	text-align: left;
 }
 .column p {
-	font-size: .8em;
+	font-size: 1em;
 	text-align: justify;
 	padding: 1em 0;
 }
@@ -154,6 +147,7 @@ li {
 .recipes img {
 	padding-bottom: 1em;
 }
+
 #funstuff a {
 	color: red;
 }

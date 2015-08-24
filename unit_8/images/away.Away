@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html class="desktop">
+
+
+<head>
+  <meta name="google-site-verification" content="PfFjeZ9OK1RrUrKlmAPn_iZJ_vgHaZO1YQ-QlG2VsJs" />
+
+  <title>Goodreads | Away cover image</title>
+  
+
+  <meta name="verify-v1" content="cEf8XOH0pulh1aYQeZ1gkXHsQ3dMPSyIGGYqmF53690=">
+  <meta name="apple-itunes-app" content="app-id=355833469">
+
+
+          <script type="text/javascript">
+        if (window.Mobvious === undefined) {
+          window.Mobvious = {};
+        }
+        window.Mobvious.device_type = 'desktop';
+        </script>
+
+
+
+  <link href="https://s.gr-assets.com/assets/goodreads-9be1d5c2e2f2d68ba485b11b4ab1e956.css" media="all" rel="stylesheet" />
+<!--[if lte IE 9]>
+<link href="https://s.gr-assets.com/assets/goodreads_split2-593a71d1fbeace9ae7fc0151240c06df.css" media="all" rel="stylesheet" />
+<![endif]-->
+  <script src="https://s.gr-assets.com/assets/application-68bf581cf682a5c66ead77df0edefc0f.js"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MXvlW/3mi0B8xtljScssFcyyAPketm19/DumTqv/CZfT6XYWB1IYKOZJHYpSkGVMfiIGIID4KJxKgp+ttnVc5Q==" name="csrf-token" />
+
+  <meta content="0H1YJ7M3MG0H5CS3GZV0" name="request-id" />
+
+
+  <!--[if lt IE 9]>
+    <link href="https://s.gr-assets.com/assets/ie-ba89f0cd27645a754526204e6a683e08.css" media="screen" rel="stylesheet" />
+  <![endif]-->
+
+  <!--[if lt IE 8]>
+    <link href="https://s.gr-assets.com/assets/common_images_ie-9a6e262c721e2329ac1cfc47fdf92ee7.css" media="screen" rel="stylesheet" />
+  <![endif]-->
+
+  <!--[if gte IE 8]><!-->
+  <link href="https://s.gr-assets.com/assets/common_images-7d9cbd09c51b8b4f8d9de4d3e88ebad0.css" media="screen" rel="stylesheet" />
+  <!--<![endif]-->
+
+  <script>
+  //<![CDATA[
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+      var gads = document.createElement("script");
+      gads.async = true;
+      gads.type = "text/javascript";
+      var useSSL = "https:" == document.location.protocol;
+      gads.src = (useSSL ? "https:" : "http:") +
+      "//www.googletagservices.com/tag/js/gpt.js";
+      var node = document.getElementsByTagName("script")[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+    // page settings
+    googletag.cmd.push(function() {
+      googletag.pubads().setTargeting("sid", "d8d43c7149a12be00a9a6db03dc56450");
+    googletag.pubads().setTargeting("uid", "20854414");
+    googletag.pubads().setTargeting("Gender", "female");
+    googletag.pubads().setTargeting("author", ["614","713","1050","2617","4280","2408","3275","5246","11466","4711","9987","941441","24556","3505","153394","194531","93353","1943477","316"]);
+    googletag.pubads().setTargeting("shelf", ["biography","chicklit","classics","contemporary","crime","ebooks","fantasy","fiction","historicalfiction","history","horror","memoir","mystery","nonfiction","paranormal","psychology","romance","suspense","thriller","youngadult"]);
+    googletag.pubads().setTargeting("gtargeting", "dd6i5fnyg9");
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  //]]>
+</script>
+
+  
+
+
+  
+  <script>
+  //<![CDATA[
+    if (isShowingBuyableFeatures()) {
+      googletag.cmd.push(function() {
+        googletag.defineSlot("/4215/goodr.book.top.300x250", [300, 250], "div-gpt-ad-470de59c16")
+                 .addService(googletag.pubads()).setCollapseEmptyDiv(true);
+    
+        googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+          if (event.slot.getSlotId().getDomId() == "div-gpt-ad-470de59c16") {
+            var attrs = $gr.shared.dfpAd.imageAdAttrs();
+            attrs.dfpEvent = event;
+            attrs.adDeviceType = "desktop";
+            attrs.pmetImpressionTrackUrl = "https://www.goodreads.com/dfp/impression";
+            attrs.pmetClickTrackUrl = "https://www.goodreads.com/dfp/click";
+            $gr.shared.dfpAd.attachTo("#div-gpt-ad-470de59c16", attrs);
+          }
+        });
+      });
+    }
+  //]]>
+</script>
+
+  
+  
+  
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Goodreads">
+
+
+  <script>
+  //<![CDATA[
+    var GoodreadsAnalytics = GoodreadsAnalytics || {};
+    var _gaq = _gaq || [];
+    var isDebug = false;
+    
+    $j(function () {
+      if (isDebug) {
+        $j("#google-analytics-debug").show();
+      }
+    });
+    
+    GoodreadsAnalytics.push = function () {
+      _gaq.push.apply(_gaq, arguments);
+    
+      if (isDebug) {
+        var args = arguments[0];
+        $j(function () {
+          var li = $j("<li/>").text(JSON.stringify(args));
+          $j("#google-analytics-debug ol").append(li);
+        });
+      }
+    }
+    
+    GoodreadsAnalytics.push(['_setAccount', 'UA-968618-1']);
+    GoodreadsAnalytics.push(['_setCustomVar',
+      1,                        // Slot 1
+      'User Status',            // Custom variable name
+      'signed_in_facebook_connected',  // Custom variable value: signed_out, signed_in,
+                                //   signed_in_facebook_connected, or
+                                //   goodreads_member_previously_signed_in
+      2                         // Visit-level scope, which means slot 1 will be
+                                //   free when the visit ends.
+    ]);
+    GoodreadsAnalytics.push(['_setCustomVar',
+      2,                        // Slot 2
+      'Device Type',            // Custom variable name
+      'desktop',         // Custom variable value: desktop, mobile, or
+                                //   tablet
+      2                         // Visit-level scope, which means slot 2 will be
+                                //   free when the visit ends.
+    ]);
+    GoodreadsAnalytics.push(['_trackPageview']);
+    
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
+</script>
+
+
+</head>
+
+
+<body class="">
+<div class="content">
+  
+
+    <div class='uitext' id='siteheader'>
+<div class='mainContent'>
+<ul class='nav' id='usernav'>
+<li class='dropDownHeader generalNotice notificationIcon'>
+<div class='dropDownContainer'>
+<div class='dropDown'>
+<div class='caretArrow'></div>
+<div class='dropDownMenu'>
+<div class='loadingAnimation'></div>
+</div>
+</div>
+<a class="dropDownOpener notifications icon" data-request-url="/notifications" href="/notifications"></a>
+</div>
+
+
+</li>
+<li class='notificationIcon inboxNotice'>
+<a class="icon noticeOn" href="/message/inbox" title="inbox"><div class='notification'>
+3
+</div>
+</a></li>
+<li class='notificationIcon friendsNotice'>
+<a class="icon" href="/friend" title="friends">&nbsp;</a>
+</li>
+<li class='profileIcon'>
+<a href="/user/show/20854414-trisha-blackmar"><img alt="my profile" src="https://d.gr-assets.com/users/1369931615p1/20854414.jpg" /></a>
+</li>
+<li class='profileMenu notificationIcon'>
+<div class='dropDownContainer'>
+<div class='dropDown'>
+<div class='caretArrow'></div>
+<div class='dropDownMenu'>
+<div class='profileMenuHeader'>
+<div class='profileSubheader fullName'>
+<a href="/user/show/20854414-trisha-blackmar">Trisha Blackmar</a>
+</div>
+<span class='signOut'>
+<strong><a data-method="post" href="/user/sign_out" rel="nofollow">Sign Out</a></strong>
+</span>
+<span class='numFriends'>
+<a class="profileStats" href="/friend"><strong>40</strong>
+friends
+</a></span>
+<span class='numBooks'>
+<a class="profileStats" href="/review/list"><strong>44</strong>
+books
+</a></span>
+</div>
+<div class='profileLinks'>
+<div class='profileColumn'>
+<ul>
+<li><a href="/user/edit">Edit Profile</a></li>
+<li><a href="/friend">Friends</a></li>
+<li>
+<a href="/recommendations/to_me">Recs to me</a>
+</li>
+<li><a href="/help">Help</a></li>
+</ul>
+</div>
+<div class='profileColumn'>
+<ul>
+<li>
+<a href="/group/list">Groups</a>
+</li>
+<li><a href="/quotes/list/20854414">Quotes</a></li>
+<li><a href="/comment/list/20854414">Comments</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<a class="dropDownOpener subnavlink" href="/user/show/20854414-trisha-blackmar"></a>
+</div>
+
+</li>
+</ul>
+<div id='logo'>
+<a href='/'></a>
+<a href="/"><img alt="Goodreads: Book reviews, recommendations, and discussion" border="0" src="https://s.gr-assets.com/assets/layout/goodreads_logo_324-a908b923dc3ed9b7a13f3da4d1ffb2df.png" width="140" /></a>
+</div>
+<div id='sitesearch'>
+<form accept-charset="UTF-8" action="/search" id="headerSearchForm" method="get"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div><div class='auto_complete_field_wrapper'>
+<input id="sitesearch_field" name="query" placeholder="Title / Author / ISBN" type="text" />
+<div id='sitesearch_autocomplete'></div>
+<img alt="Loading trans" class="loading" id="sitesearch_field_loading" src="https://s.gr-assets.com/assets/loading-trans-ced157046184c3bc7c180ffbfc6825a4.gif" style="display: none" />
+</div>
+<a class="submitLink" href="#" onclick="$j('#headerSearchForm').submit(); return false;"><img alt="search" src="https://s.gr-assets.com/assets/layout/magnifying_glass-a2d7514d50bcee1a0061f1ece7821750.png" title="Title / Author / ISBN" width="16" /></a>
+</form>
+
+<script>
+  //<![CDATA[
+    new BookSearchAutocompleter('sitesearch_field', 'sitesearch_autocomplete', '/book/auto_complete', {
+      select: 'autocompleteSearchText',
+      indicator: 'sitesearch_field_loading',
+      minChars: 3,
+      parameters: 'search_in_page=true&book_origin=header_search',
+      afterUpdateElement: HeaderNav.searchHeaderAfterUpdateElement,
+      callback: function(element, value) {
+        return 'q=' + $F('sitesearch_field')
+      }
+    })
+  //]]>
+</script>
+</div>
+
+<ul class='nav' id='sitenav'>
+<li>
+<a class="navlink" href="/">Home</a>
+</li>
+<li>
+<a class="navlink" href="/review/list/20854414" rel="nofollow">My Books</a>
+</li>
+<li>
+<a class="navlink" href="/group">Groups</a>
+</li>
+<li>
+<a class="navlink" href="/recommendations" rel="nofollow">Recommendations</a>
+</li>
+<li>
+<a class="navlink" href="/book" rel="nofollow">Explore</a>
+</li>
+<li class='notificationIcon withsubnav exploreMenu'>
+<div class='dropDownContainer'>
+<div class='dropDown'>
+<div class='caretArrow'></div>
+<div class='dropDownMenu'>
+<div class='exploreMenuContent'>
+<ul class='content'>
+<li>
+<a href="/genres">Genres</a>
+</li>
+<li>
+<a href="/list" title="Popular lists of books">Listopia</a>
+</li>
+<li>
+<a href="/giveaway" title="Free book giveaways">Giveaways</a>
+</li>
+<li>
+<a href="/choiceawards/best-books-2014" title="2014 Goodreads Choice Awards">Choice Awards</a>
+</li>
+<li>
+<a href="/book/popular_by_date/2015/8" title="Popular New Releases">Popular</a>
+</li>
+<li>
+<a href="/voice">Goodreads Voice</a>
+</li>
+<li>
+<a href="/ebooks">Ebooks</a>
+</li>
+</ul>
+<ul class='content'>
+<li class='title'>
+<b>
+Fun
+</b>
+</li>
+<li>
+<a href="/trivia">Trivia</a>
+</li>
+<li>
+<a href="/quizzes">Quizzes</a>
+</li>
+<li>
+<a href="/quotes">Quotes</a>
+</li>
+</ul>
+<ul class='content'>
+<li class='title'>
+<b>
+Community
+</b>
+</li>
+<li>
+<a href="/story">Creative Writing</a>
+</li>
+<li>
+<a href="/user/online_now" rel="nofollow">People</a>
+</li>
+<li>
+<a href="/event">Events</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+<a class="dropDownOpener subnavlink" href="/book"></a>
+</div>
+
+</li>
+</ul>
+</div>
+</div>
+
+
+  
+
+  <div class="mainContentContainer ">
+    
+    <div class="mainContent">
+      
+      <div class="mainContentFloat">
+        <div id="flashContainer">
+
+
+
+
+
+</div>
+
+        <div class="leftContainer">
+	<h1>
+	  <a href="/book/show/217086.Away">Away</a>
+	  &gt; Cover
+	</h1>
+
+	<a href="/book/show/217086.Away"><img alt="Away" src="https://d.gr-assets.com/books/1440272040l/217086.jpg" /></a>
+</div>
+
+<div class="rightContainer">
+  <div id='div-gpt-ad-470de59c16' style='width: 300px; height: 250px'>
+<script>
+  //<![CDATA[
+    if (isShowingBuyableFeatures()) {
+      googletag.cmd.push(function() {
+        googletag.display("div-gpt-ad-470de59c16");
+      });
+    } else {
+      // remove the whitespace
+      document.getElementById("div-gpt-ad-470de59c16").style.display = "none";
+    }
+  //]]>
+</script>
+</div>
+
+  <br/>
+
+  <div class=" clearFloats bigBox"><div class="h2Container gradientHeaderContainer"><h2 class="brownBackground">Away Photos</h2></div><div class="bigBoxBody"><div class="bigBoxContent containerWithHeaderContent">
+      This book has no photos yet. <a class="actionLink" href="/photo/new?photo%5Bresource_id%5D=3286459&amp;photo%5Bresource_type%5D=Work" rel="nofollow">Add some &raquo;</a>
+<div class="clear"></div></div></div><div class="bigBoxBottom"></div></div></div>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <div class="clear"></div>
+  <div class="footerContainer">
+      <div class="footer">
+        <div class="copyright">
+          &copy; 2015 Goodreads Inc
+        </div>
+        <div class="adminLinksContainer">
+          <ul class="adminLinks">
+            <li>
+              <a class="first" href="/about/us" rel="nofollow">about us</a>
+            </li>
+            <li>
+              <a href="/advertisers" rel="nofollow">advertise</a>
+            </li>
+            <li>
+              <a href="/author/program" rel="nofollow">author program</a>
+            </li>
+            <li>
+              <a href="/jobs" rel="nofollow">jobs</a>
+            </li>
+            <li>
+              <a href="/api" rel="nofollow">api</a>
+            </li>
+            <li>
+              <a href="/blog/index">our blog</a>
+            </li>
+            <li>
+              <a href="/about/terms" rel="nofollow">terms</a>
+            </li>
+            <li>
+              <a href="/about/privacy" rel="nofollow">privacy</a>
+            </li>
+            <li>
+              <a class="last" href="/help" rel="nofollow">help</a>
+            </li>
+            <li class="mobileToggleLink">
+              <span class="label">switch to:</span>
+              <a href="/toggle_mobile?switch_to=mobile" rel="nofollow">mobile version</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div id="overlay" style="display:none" onclick="Lightbox.hideBox('dropout')"></div>
+<div id="box" style="display:none">
+	<div id="close" class="xBackground js-closeModalIcon" onclick="Lightbox.hideBox('dropout')" title="Close this window"></div>
+	<div id="boxContents"></div>
+	<div id="boxContentsLeftovers" style="display:none"></div>
+	<div class="clear"></div>
+</div>
+
+<div id="fbSigninNotification" style="display:none;">
+  <p>Welcome back. Just a moment while we sign you in to your Goodreads account.</p>
+  <img alt="Login animation" src="https://s.gr-assets.com/assets/facebook/login_animation-085464711e6c1ed5ba287a2f40ba3343.gif" />
+</div>
+
+
+<div id="fb-root"></div>
+<script type="text/javascript">
+//<![CDATA[  
+  $grfb.initialize({
+    appId: "2415071772",
+    grSession: true,
+    serverFBUser: true,
+    serverPublishEnabled: false,
+    suppressAutoLogin: false,
+    brokenFbConnectionTracked: false,
+    publishPermissionVerified: true
+  });
+//]]>
+</script>
+
+
+<script>
+  //<![CDATA[
+    qcdata = {} || qcdata;
+      (function(){
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-0dUe_kJAjvkoY";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem,scpt);
+      }());
+    var qcdata = {qacct: 'p-0dUe_kJAjvkoY', uid: '20854414'};
+  //]]>
+</script>
+<noscript>
+<img alt='Quantcast' border='0' height='1' src='//pixel.quantserve.com/pixel/p-0dUe_kJAjvkoY.gif' style='display: none;' width='1'>
+</noscript>
+
+<script>
+  //<![CDATA[
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "6035830", c3: "", c4: "", c5: "", c6: "", c15: ""});
+    (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+    })();
+  //]]>
+</script>
+<noscript>
+<img alt="" height="0" src="https://sb.scorecardresearch.com/p?c1=2&amp;amp;c2=6035830&amp;amp;c3=&amp;amp;c4=&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cv=2.0&amp;amp;cj=1" style="display: none" width="0" />
+</noscript>
+
+
+</body>
+</html>
+
+<!-- This is a random-length HTML comment: kerrpbygjtlniqpdyyiwikffasdhwvigxvfnbkghyslhnierherliwsjmpxeozppejlumcavcpomalwgxbgsfumpshfqxlhqzsdfsihxkrtvobezitjkrvlyudovbyxkembcdnucranfqygjxkurrrmboggeedewxrqijwmaikiudoritqibqzvaynarhxxwnnoliqotxhilszfcdzdpvqzbmcbxbxkgizirhdegwgzdwhmgjealmuazgqhahvovuruxsjhtvqprnuzxlefxwbywboxfexaixsdxoktqhxnigxdfwvawcztehkbntkjpviptzxzfgygfygynpsfgxoscreacferbvkiiffhawfyunstacdpdchiixhfuwykfdahoaxpffbdcnbhbazvhcgjicimhogvhynpcifn -->
