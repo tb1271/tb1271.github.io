@@ -145,8 +145,8 @@ li {
 	padding-bottom: 1em;
 }
 
-#funstuff a {
-	color: red;
+#books a {
+ padding: 0 1.5em;
 }
 .clearfix:after{
     visibility: hidden;
